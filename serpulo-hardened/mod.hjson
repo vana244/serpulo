@@ -1,0 +1,11 @@
+{
+    name: "serpulo-hardened"
+    displayName: "[scarlet]Serpulo: Закалённый[]"
+    description: "Каждый сектор Serpulo сложнее предыдущего. Новый сектор [scarlet]Кризисная Зона[]. Система волн-всплесков."
+    subtitle: "[lightgray]v2.0 | Build 158+ | Прогрессивная сложность[]"
+    author: "Custom"
+    version: "2.0.0"
+    minGameVersion: "158"
+    hidden: false
+    java: false
+}

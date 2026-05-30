@@ -1,0 +1,32 @@
+// =================================================================
+//  Кризисная Зона — новый сектор после ЯПК (nuclear-complex)
+//  Файл карты: maps/serpulo/serpulo-hardened-crisis-zone.msav
+// =================================================================
+{
+    type: SectorPreset
+
+    name: crisis-zone
+
+    localizedName: "[scarlet]Кризисная Зона[]"
+    description: "[scarlet]Опаснейший регион Serpulo.[] Орды усиленных противников, щиты, волны-всплески каждые 3 волны.\n\n[orange]Угроза: ██████████ 100%[]\n[gray]Доступен после ЯПК. Волн до захвата: 35+[]"
+
+    planet: serpulo
+    sector: 200
+
+    difficulty: 10
+
+    captureWave: 35
+
+    // Открывается всегда (можно убрать после добавления тех-дерева)
+    alwaysUnlocked: true
+
+    addStartingItems: true
+    startingItems: [
+        {item: copper,     amount: 500}
+        {item: lead,       amount: 400}
+        {item: silicon,    amount: 200}
+        {item: metaglass,  amount: 100}
+        {item: titanium,   amount: 80}
+        {item: plastanium, amount: 40}
+    ]
+}
